@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
-        brightness: Brightness.dark
+        brightness: Brightness.dark,
+          backgroundColor: Colors.red
       ),
 
       title: 'https://www.learnwithmotaleb.com',

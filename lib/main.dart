@@ -9,11 +9,10 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
 
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-
+      debugShowCheckedModeBanner: true,
       theme: ThemeData(
         brightness: Brightness.dark,
-          backgroundColor: Colors.red
+
       ),
 
       title: 'https://www.learnwithmotaleb.com',
